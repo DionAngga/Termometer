@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termometer</title>
+</head>
+<body>
+    <form name="formtermometer">
+        Kelvin: <input type="text" name="kelvin1">
+        Celcius: <input type="text" name="celcius">
+        <input type="button" value="result" onclick="KtoC()">
+        <br>
+        Kelvin: <input type="text" name="kelvin2">
+        Fahrenheit: <input type="text" name="fahrenheit">
+        <input type="button" value="result" onclick="KtoF()">
+        <br>
+        <!-- <br> digunakan untuk menambah baris baru pada browser, seperti tombol enter pada umumnya -->
+        <input type="button" value="reset" onclick="javascript:location.reload(true)">
+        <!-- javascript:location.reload(true) digunakan untuk merefresh halaman -->
+    </form>
+<script src="./script.js"></script>
+</body>
+</html>
